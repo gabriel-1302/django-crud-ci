@@ -30,23 +30,23 @@ El workflow `.github/workflows/ci.yml` ejecuta los siguientes pasos en cada push
 
 ### Historial de ejecuciones en Actions
 
-<!-- Insertar captura de la pestaña Actions con múltiples ejecuciones -->
+![Historial de ejecuciones en Actions](./capturas/historial-actions.jpeg)
 
 ### Workflow exitoso con cobertura
 
-<!-- Insertar captura de un workflow completo con todos los pasos en verde y el reporte de cobertura -->
+![Workflow exitoso](./capturas/historial-actions.jpeg)
 
 ### Workflow fallido por linting
 
-<!-- Insertar captura del workflow fallando en el paso de flake8 con el mensaje de error -->
+![Workflow fallido](./capturas/actions-in-progress.jpeg)
 
 ### Merge bloqueado por CI pendiente
 
-<!-- Insertar captura del PR con el mensaje "Some checks haven't completed yet" y el botón de merge desactivado -->
+![Merge bloqueado](./capturas/merge-bloqueado.jpeg)
 
 ### Configuración de Branch Protection Rule
 
-<!-- Insertar captura de Settings > Branches mostrando la regla configurada sobre main -->
+![Branch Protection Rule](./capturas/branch-protection.jpeg)
 
 ## Resultados de cobertura
 
