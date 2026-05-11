@@ -1,5 +1,9 @@
 # Informe — Laboratorio 5.1: CI con GitHub Actions y Django
 
+**Repositorios de GitHub:**
+- Proyecto Node.js (Ejercicios 3.1-3.4): https://github.com/gabriel-1302/github-actions-ci-demo
+- Proyecto Django (Práctica 4): https://github.com/gabriel-1302/django-crud-ci
+
 ## Descripción del proyecto
 
 API REST de gestión de tareas construida con **Django 5** y **Django REST Framework**.
