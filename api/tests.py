@@ -85,3 +85,12 @@ class TestTareaDetail:
         url = reverse('tarea-detail', args=[tarea.pk])
         client.delete(url)
         assert not Tarea.objects.filter(pk=tarea.pk).exists()
+
+
+@pytest.mark.django_db
+class TestHealthCheck:
+    def test_health_retorna_200(self, client):
+        url = reverse('health-check')
+        response = client.get(url)
+        assert response.status_code == status.HTTP_200_OK
+        assert response.data['status'] == 'ok'
